@@ -50,12 +50,35 @@
     <Folder Include="app\static\app\" />
     <Folder Include="app\static\app\content\" />
     <Folder Include="app\static\app\fonts\" />
+    <Folder Include="app\static\app\images\" />
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="FullSite\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\static\app\content\bootstrap-grid.css" />
+    <Content Include="app\static\app\content\bootstrap-grid.css.map" />
+    <Content Include="app\static\app\content\bootstrap-grid.min.css" />
+    <Content Include="app\static\app\content\bootstrap-grid.min.css.map" />
+    <Content Include="app\static\app\content\bootstrap-reboot.css" />
+    <Content Include="app\static\app\content\bootstrap-reboot.css.map" />
+    <Content Include="app\static\app\content\bootstrap-reboot.min.css" />
+    <Content Include="app\static\app\content\bootstrap-reboot.min.css.map" />
+    <Content Include="app\static\app\content\bootstrap.css.map" />
+    <Content Include="app\static\app\content\bootstrap.min.css.map" />
+    <Content Include="app\static\app\content\font-awesome.min.css" />
+    <Content Include="app\static\app\images\mainbackground.jpg" />
+    <Content Include="app\static\app\scripts\bootstrap.bundle.js" />
+    <Content Include="app\static\app\scripts\bootstrap.bundle.js.map" />
+    <Content Include="app\static\app\scripts\bootstrap.bundle.min.js" />
+    <Content Include="app\static\app\scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="app\static\app\scripts\bootstrap.js.map" />
+    <Content Include="app\static\app\scripts\bootstrap.min.js.map" />
+    <Content Include="app\templates\app\designmain.html" />
+    <Content Include="app\templates\app\photographymain.html" />
+    <Content Include="app\templates\app\temp.html" />
+    <Content Include="app\templates\app\themeindex.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
