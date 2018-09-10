@@ -14,7 +14,7 @@ def home(request):
         request,
         'app/index.html',
         {
-            'title':'Home Page',
+            'title':'Home - Jared Knott',
             'year':datetime.now().year,
         }
     )
@@ -44,3 +44,17 @@ def about(request):
             'year':datetime.now().year,
         }
     )
+
+def photosMain(request):
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/photographymain.html',
+        )
+
+def designMain(request):
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/designmain.html',
+        )
