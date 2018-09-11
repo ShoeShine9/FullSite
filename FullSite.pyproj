@@ -77,8 +77,6 @@
     <Content Include="app\static\app\scripts\bootstrap.min.js.map" />
     <Content Include="app\templates\app\designmain.html" />
     <Content Include="app\templates\app\photographymain.html" />
-    <Content Include="app\templates\app\temp.html" />
-    <Content Include="app\templates\app\themeindex.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

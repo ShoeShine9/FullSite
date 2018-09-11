@@ -50,6 +50,10 @@ input[type="checkbox"].input-validation-error {
     display: none;
 }
 
+h3 {
+	color: #ffccdc;
+}
+
 .welcome_main {
    background-image: url("/static/app/images/mainbackground.jpg");
    background-position: center;
@@ -62,11 +66,13 @@ input[type="checkbox"].input-validation-error {
 }
 
 .welcome_main h1 {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 100px;
-    color: antiquewhite;
-    font-weight: 300;
-    width: 50%;
-    padding-top: 100px;
-    margin: auto;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	align-content: center;
+	font-size: 100px;
+	color: #ffccdc;
+	font-weight: 300;
+	width: 50%;
+	padding-top: 200px;
+	margin: auto;
+	opacity: 0.5;
 }
