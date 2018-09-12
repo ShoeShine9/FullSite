@@ -1,78 +1,14 @@
 html, body {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-* {
-box-sizing: border-box;
-}
-
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
-}
-
-/* styles for validation helpers */
-.field-validation-error {
-    color: #b94a48;
-}
-
-.field-validation-valid {
-    display: none;
-}
-
-input.input-validation-error {
-    border: 1px solid #b94a48;
-}
-
-input[type="checkbox"].input-validation-error {
-    border: 0 none;
-}
-
-.validation-summary-errors {
-    color: #b94a48;
-}
-
-.validation-summary-valid {
-    display: none;
-}
-
-h3 {
-	color: #ffccdc;
-}
-
-.welcome_main {
-   background-image: url("/static/app/images/mainbackground.jpg");
-   background-position: center;
-   background-size: cover;
-   min-height: 750px;
-   width: 100%;
-   margin: 0 0;
-   padding: 0 0;
-   overflow-x: hidden;
-}
-
-.welcome_main h1 {
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	align-content: center;
-	font-size: 100px;
-	color: #ffccdc;
-	font-weight: 300;
-	width: 50%;
-	padding-top: 200px;
-	margin: auto;
-	opacity: 0.5;
+.main_background {
+    background-image: url("/static/app/images/leaves.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }

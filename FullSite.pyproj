@@ -54,6 +54,7 @@
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
+    <Folder Include="app\templates\old\" />
     <Folder Include="FullSite\" />
   </ItemGroup>
   <ItemGroup>
@@ -65,9 +66,12 @@
     <Content Include="app\static\app\content\bootstrap-reboot.css.map" />
     <Content Include="app\static\app\content\bootstrap-reboot.min.css" />
     <Content Include="app\static\app\content\bootstrap-reboot.min.css.map" />
+    <Content Include="app\static\app\content\bootstrap.css" />
     <Content Include="app\static\app\content\bootstrap.css.map" />
+    <Content Include="app\static\app\content\bootstrap.min.css" />
     <Content Include="app\static\app\content\bootstrap.min.css.map" />
     <Content Include="app\static\app\content\font-awesome.min.css" />
+    <Content Include="app\static\app\images\leaves.jpg" />
     <Content Include="app\static\app\images\mainbackground.jpg" />
     <Content Include="app\static\app\scripts\bootstrap.bundle.js" />
     <Content Include="app\static\app\scripts\bootstrap.bundle.js.map" />
@@ -76,11 +80,19 @@
     <Content Include="app\static\app\scripts\bootstrap.js.map" />
     <Content Include="app\static\app\scripts\bootstrap.min.js.map" />
     <Content Include="app\templates\app\designmain.html" />
+    <Content Include="app\templates\app\home.html" />
     <Content Include="app\templates\app\photographymain.html" />
+    <Content Include="app\templates\old\about.html" />
+    <Content Include="app\templates\old\contact.html" />
+    <Content Include="app\templates\old\designmain.html" />
+    <Content Include="app\templates\old\index.html" />
+    <Content Include="app\templates\old\layout.html" />
+    <Content Include="app\templates\old\login.html" />
+    <Content Include="app\templates\old\loginpartial.html" />
+    <Content Include="app\templates\old\photographymain.html" />
+    <Content Include="app\templates\old\site.css" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
-    <Content Include="app\static\app\content\bootstrap.css" />
-    <Content Include="app\static\app\content\bootstrap.min.css" />
     <Content Include="app\static\app\content\site.css" />
     <Content Include="app\static\app\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="app\static\app\fonts\glyphicons-halflings-regular.svg" />
