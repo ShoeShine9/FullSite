@@ -1,23 +1,25 @@
-{% extends "app/layout.html" %}
+﻿{% extends "app/layout.html" %}
 
 {% block content %}
 
+<div class="container-fluid text-center text-white" style="margin-top: 25vh; margin-bottom:25vh;">
+    <h1>Hi!</h1>
+    <h1>Welcome to my portfolio.</h1>
+</div>
 
-<!--<div class="welcome_main">
-    <div class="row">
-        <div class="col-md-4">
-            <a href="{% url 'photos' %}"><h1 align="center">Photos</h1></a>
-            <h3 align="center">My photography portfolio. </h3>        
-        </div>
-        <div class="col-md-4">
-            <a href="{% url 'design' %}"><h1 align="center">Design</h1></a>
-            <h3 align="center">My design portfolio.</h3>
-        </div>
-        <div class="col-md-4">
-            <a href="{% url 'about' %}"><h1 align="center">About</h1></a>
-            <h3 align="center">About me and my website.</h3>      
-        </div>
+<div class="container-fluid text-center text-white">
+  <div class="row">
+    <div class="col-sm nav-link">
+      <a href="{% url 'photos' %}"><h2 class="nav-link text-white">Photography</h2></a>
     </div>
-</div> -->
+    <div class="col-sm nav-link">
+      <a href="{% url 'design' %}"><h2 class="nav-link text-white">Design</h2></a>
+    </div>
+    <div class="col-sm">
+      <a href="{% url 'about' %}"><h2 class="nav-link text-white">About</h2></a>
+    </div>
+  </div>
+</div>
+
 
 {% endblock %}

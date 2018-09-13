@@ -21,6 +21,11 @@ urlpatterns = [
     url(r'^about$', app.views.about, name='about'),
     url(r'^photography$', app.views.photosMain, name='photos'),
     url(r'^design$', app.views.designMain, name='design'),
+    url(r'^design/hardware$', app.views.designHardware, name='hardware'),
+    url(r'^design/software$', app.views.designSoftware, name='software'),
+    url(r'^photography/people$', app.views.photosPeople, name='people'),
+    url(r'^photography/places$', app.views.photosPlaces, name='places'),
+    url(r'^photography/weddings$', app.views.photosWeddings, name='weddings'),
     url(r'^login/$',
         django.contrib.auth.views.login,
         {

@@ -12,9 +12,10 @@ def home(request):
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'app/home.html',
+        'app/index.html',
         {
-            'title':'Home - Jared Knott',
+            'title':'Home',
+            'background':'main_background',
             'year':datetime.now().year,
         }
     )
@@ -27,6 +28,7 @@ def contact(request):
         'app/contact.html',
         {
             'title':'Contact',
+            'background':'main_background',
             'message':'Your contact page.',
             'year':datetime.now().year,
         }
@@ -37,9 +39,10 @@ def about(request):
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'app/about.html',
+        'app/aboutmain.html',
         {
             'title':'About',
+            'background':'main_background',
             'message':'Your application description page.',
             'year':datetime.now().year,
         }
@@ -50,6 +53,11 @@ def photosMain(request):
     return render(
         request,
         'app/photographymain.html',
+        {
+            'title':'Photography',
+            'background':'main_background',
+            'year':datetime.now().year,
+        }
         )
 
 def designMain(request):
@@ -57,4 +65,69 @@ def designMain(request):
     return render(
         request,
         'app/designmain.html',
+        {
+            'title':'Design',
+            'background':'main_background',
+            'year':datetime.now().year,
+        }
+        )
+
+def designHardware(request):
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/design-hardware.html',
+        {
+            'title':'Hardware',
+            'background':'main_background',
+            'year':datetime.now().year,
+        }
+        )
+
+def designSoftware(request):
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/design-software.html',
+        {
+            'title':'Software',
+            'background':'main_background',
+            'year':datetime.now().year,
+        }
+        )
+
+def photosPeople(request):
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/photography-people.html',
+        {
+            'title':'People',
+            'background':'main_background',
+            'year':datetime.now().year,
+        }
+        )
+
+def photosPlaces(request):
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/photography-places.html',
+        {
+            'title':'Places',
+            'background':'main_background',
+            'year':datetime.now().year,
+        }
+        )
+
+def photosWeddings(request):
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/photography-weddings.html',
+        {
+            'title':'Weddings',
+            'background':'main_background',
+            'year':datetime.now().year,
+        }
         )
