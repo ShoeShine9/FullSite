@@ -72,6 +72,7 @@
     <Content Include="app\static\app\content\bootstrap.min.css.map" />
     <Content Include="app\static\app\images\leaves.jpg" />
     <Content Include="app\static\app\images\mainbackground.jpg" />
+    <Content Include="app\static\app\images\photographymain.jpg" />
     <Content Include="app\static\app\scripts\bootstrap.bundle.js" />
     <Content Include="app\static\app\scripts\bootstrap.bundle.js.map" />
     <Content Include="app\static\app\scripts\bootstrap.bundle.min.js" />

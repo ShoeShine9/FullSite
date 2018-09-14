@@ -55,7 +55,7 @@ def photosMain(request):
         'app/photographymain.html',
         {
             'title':'Photography',
-            'background':'main_background',
+            'background':'photomain_background',
             'year':datetime.now().year,
         }
         )
