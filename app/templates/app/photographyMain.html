@@ -2,22 +2,29 @@
 
 {% block content %}
 
-<div class="container float_right_bio">
+<div class="container float_bio text-white">
     <div class="row">
         <div class="col">            
             <h1>Photography is an adventure</h1>
-            <p>This is my story as a photographer.</p>
+            <p>I stumbled into photography {{ start }} years ago. On a business trip to San Jose, California I decided I wanted to remember it with better quality than my phone could provide. 
+            I bought my first Canon Rebel T5 and proceeded to take terrible pictures. But the seeds of my obsession were planted.
+            <br/>
+            That obsession has grown into a hobby that compels me to explore solitude and peace through the art of land and nightscape photography, and when I'm not in the
+            mountains I'm provided the unique opportunity to capture the beauty of human existence through portrait and wedding photography.
+            <br/>
+            These are my images...
+            </p>
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <p>People</p>
+            <a href="{% url 'people' %}"><h2 class="nav-link text-white">People</h2></a>
         </div>
         <div class="col">
-            <p>Places</p>
+            <a href="{% url 'places' %}"><h2 class="nav-link text-white">Places</h2></a>
         </div>
         <div class="col">
-            <p>Weddings</p>
+            <a href="{% url 'weddings' %}"><h2 class="nav-link text-white">Weddings</h2></a>
         </div>
     </div>
 </div>

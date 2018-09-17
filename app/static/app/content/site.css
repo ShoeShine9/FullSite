@@ -41,8 +41,19 @@ html, body {
 	margin-bottom: 25vh;
 }
 
-.float_right_bio {
+.float_bio {
 	margin-top: 25vh;
+	margin-right:5vh;
 	float: right;
 	width:50%;
 }
+
+@media (max-width:600px){
+	.float_bio {
+		margin-top: 25vh;
+		float:none;
+		width: 80%;
+		text-align:center;
+	}
+}
+
