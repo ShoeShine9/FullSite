@@ -1,11 +1,25 @@
-﻿<!DOCTYPE html>
+﻿{% extends "app/layout.html" %}
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
-    <p>design main</p>
-</body>
-</html>
+{% block content %}
+
+<div class="container float_bio_left {{textcolor}}">
+    <div class="row">
+        <div class="col">            
+            <h1>Design is a career</h1>
+            <p>I started my Bachelor's degree at UCCS {{ start }} years ago. 
+            <br/>
+            This is my personal work...
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <a href="{% url 'hardware' %}"><h2 class="nav-link {{textcolor}}">Hardware</h2></a>
+        </div>
+        <div class="col">
+            <a href="{% url 'software' %}"><h2 class="nav-link {{textcolor}}">Software</h2></a>
+        </div>      
+    </div>
+</div>
+
+{% endblock %}

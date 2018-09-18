@@ -17,6 +17,8 @@ def home(request):
             'title':'Home',
             'background':'main_background',
             'year':datetime.now().year,
+            'textcolor':'text-white',
+            'navbarcolor':'navbar-dark',
         }
     )
 
@@ -31,6 +33,8 @@ def contact(request):
             'background':'main_background',
             'message':'Your contact page.',
             'year':datetime.now().year,
+            'textcolor':'text-white',
+            'navbarcolor':'navbar-dark',
         }
     )
 
@@ -45,6 +49,8 @@ def about(request):
             'background':'main_background',
             'message':'Your application description page.',
             'year':datetime.now().year,
+            'textcolor':'text-white',
+            'navbarcolor':'navbar-dark',
         }
     )
 
@@ -59,19 +65,26 @@ def photosMain(request):
             'title':'Photography',
             'background':'photomain_background',
             'year':datetime.now().year,
-            'start':start.year
+            'start':start.year,
+            'textcolor':'text-white',
+            'navbarcolor':'navbar-dark',
         }
         )
 
 def designMain(request):
+    d = datetime(2008,9,18)
+    start = yearsago(d.year)
     assert isinstance(request, HttpRequest)
     return render(
         request,
         'app/designmain.html',
         {
             'title':'Design',
-            'background':'main_background',
+            'background':'designmain_background',
             'year':datetime.now().year,
+            'start':start.year,
+            'textcolor':'text-black',
+            'navbarcolor':'navbar-light',
         }
         )
 
@@ -84,6 +97,8 @@ def designHardware(request):
             'title':'Hardware',
             'background':'main_background',
             'year':datetime.now().year,
+            'textcolor':'text-white',
+            'navbarcolor':'navbar-dark',
         }
         )
 
@@ -96,6 +111,8 @@ def designSoftware(request):
             'title':'Software',
             'background':'main_background',
             'year':datetime.now().year,
+            'textcolor':'text-white',
+            'navbarcolor':'navbar-dark',
         }
         )
 
@@ -108,6 +125,8 @@ def photosPeople(request):
             'title':'People',
             'background':'main_background',
             'year':datetime.now().year,
+            'textcolor':'text-white',
+            'navbarcolor':'navbar-dark',
         }
         )
 
@@ -120,6 +139,8 @@ def photosPlaces(request):
             'title':'Places',
             'background':'main_background',
             'year':datetime.now().year,
+            'textcolor':'text-white',
+            'navbarcolor':'navbar-dark',
         }
         )
 
@@ -132,6 +153,8 @@ def photosWeddings(request):
             'title':'Weddings',
             'background':'main_background',
             'year':datetime.now().year,
+            'textcolor':'text-white',
+            'navbarcolor':'navbar-dark',
         }
         )
 

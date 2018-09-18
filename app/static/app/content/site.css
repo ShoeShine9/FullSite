@@ -20,6 +20,14 @@ html, body {
 	background-repeat: no-repeat;
 }
 
+.designmain_background {
+	background-image: url("/static/app/images/designmain.jpg");
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 .opacity_75 {
 	opacity:0.75;
 }
@@ -38,22 +46,46 @@ html, body {
 
 .welcome_banner {
 	margin-top: 25vh;
-	margin-bottom: 25vh;
+	margin-bottom: 20vh;
 }
 
-.float_bio {
+.float_bio_right {
 	margin-top: 25vh;
-	margin-right:5vh;
+	margin-right:5vw;
 	float: right;
-	width:50%;
+	width: 50%;
 }
 
 @media (max-width:600px){
-	.float_bio {
+	.float_bio_right {
 		margin-top: 25vh;
-		float:none;
-		width: 80%;
-		text-align:center;
+		float: none;
+		width: 90%;
+		text-align: center;
 	}
 }
+.float_bio_left {
+	margin-top: 25vh;
+	margin-left: 5vw;
+	float: left;
+	width: 50%;
+}
+
+@media (max-width:600px) {
+	.float_bio_left {
+		margin-top: 25vh;
+		float: none;
+		width: 90%;
+		text-align: center;
+	}
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.dropdown-menu {
+	margin-top: 0px;
+}
+
 
