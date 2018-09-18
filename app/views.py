@@ -31,8 +31,6 @@ def contact(request):
         {
             'title':'Contact',
             'background':'main_background',
-            'message':'Your contact page.',
-            'year':datetime.now().year,
             'textcolor':'text-white',
             'navbarcolor':'navbar-dark',
         }
@@ -47,7 +45,6 @@ def about(request):
         {
             'title':'About',
             'background':'main_background',
-            'message':'Your application description page.',
             'year':datetime.now().year,
             'textcolor':'text-white',
             'navbarcolor':'navbar-dark',

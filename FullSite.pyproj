@@ -83,6 +83,7 @@
     <Content Include="app\static\app\scripts\bootstrap.min.js" />
     <Content Include="app\static\app\scripts\bootstrap.min.js.map" />
     <Content Include="app\templates\app\aboutmain.html" />
+    <Content Include="app\templates\app\contact.html" />
     <Content Include="app\templates\app\design-hardware.html" />
     <Content Include="app\templates\app\design-software.html" />
     <Content Include="app\templates\app\designmain.html" />
