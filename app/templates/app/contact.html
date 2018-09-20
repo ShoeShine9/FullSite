@@ -8,12 +8,13 @@
 
     <div class="row">
         <div class="col-md-12 text-center">
-            <form action="/post" method="post">
-            <input class="form-control" name="name" placeholder="Your Name..." /><br />
-            <input class="form-control" name="phone" placeholder="Your Phone Number..." /><br />
-            <input class="form-control" name="email" placeholder="Your E-mail Address..." /><br />
-            <textarea class="form-control" name="text" placeholder="Questions? Comments? Mad Love?" style="height:150px;"></textarea><br />
-            <input class="btn btn-secondary btn-md-6 opacity_75" type="submit" value="Send"/><br /><br />
+            <form action="/contact/" method="post">
+                {% csrf_token %}
+                <input class="form-control" name="name" type="text" maxlength="100" requried placeholder="Your Name..." /><br />
+                <input class="form-control" name="phone" type="tel" maxlength="14" placeholder="Your Phone Number..." /><br />
+                <input class="form-control" name="email" type="email" maxlength="100" placeholder="Your E-mail Address..." /><br />
+                <textarea class="form-control" name="text" maxlength="5000" required placeholder="Questions? Comments? Mad Love?" style="height:150px;"></textarea><br />
+                <input class="btn btn-secondary btn-md-6 opacity_75" type="submit" value="Send"/><br /><br />
             </form>
         </div>
     </div>
